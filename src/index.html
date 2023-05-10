@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Club de ajedrez UOC</title>
+  </head>
+  <body>
+   
+    <include src="./views/header.html"></include>
+    <div class="uoc-container">
+      
+      <picture>
+        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
+        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
+      </picture>
+
+      <h1 i class="fa-solid fa-chess-rook"></i> Club de Ajedrez UOC te invita</h1>
+      <!--Bloque -->
+      <div class="container">
+         <!--Elemento-->
+        <div class="left-sidebar">
+        <p>Un club de ajedrez es una base organizativa que se encuentran en la mayoría de los países del mundo.  La idea es convertir a los aficinaodos a un club que tendrá competencias</p>
+        </div>
+        <div class="main-content">
+          <p>El club de ajedrez UOC tiene el agrado de invitarlo a participar en el primer torneo de ajedrez organizado, en el cual podrás ganar premios sorpresas y monetarios.  Inscríbete en el siguiente botón</p>
+          </div>
+        <div class="right-sidebar">
+          <button class="btn">Incripción</button>
+        </div>
+        <div class="footer"><img src="./assets/images/ajedrez.jpg?width=450"/></div>
+      </div>
+
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Club de ajedrez UOC</title>
+  </head>
+  <body>
+   <include src="./views/header.html"></include>
+    
+    <div class="uoc-container">
+      
+      <picture>
+        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
+        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
+      </picture>
+
+      <h1 i class="fa-solid fa-chess-rook"></i> Carrusel de imágenes de Ajedrez</h1>
+      <!--Bloque -->
+      
+        <main class="main-content">
+         <div class="slider-wrapper">
+            <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;
+            </button>
+            <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;
+            </button>
+            <ul class="slides-container" id="slides-container">
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/juego.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">Juego de Ajedrez</h1>
+      
+                     </div>
+                  </div>
+               </li>
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/rey.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">El Rey de la partida</h1>
+                        
+                     </div>
+                  </div>
+               </li>
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/caballo.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">El caballo</h1>
+                        
+                     </div>
+                  </div>
+               </li>
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/peones.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">Peones</h1>
+                        
+                     </div>
+                  </div>
+               </li>
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/piezas.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">Piezas diversas</h1>
+                       
+                     </div>
+                  </div>
+               </li>
+               <li class="slide">
+                  <div class="slide-content">
+                     <img src="./assets/images/tablero.jpg?width=400?height=400">
+                     <div class="slide-text">
+                        <h1 class="carousel-title">Tablero</h1>
+                        
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         </main>
+         <script src="./assets/scripts/script.js"></script>
+        
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
